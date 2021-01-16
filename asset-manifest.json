@@ -1,28 +1,32 @@
 {
   "files": {
     "main.css": "/Ankit290801.github.io/static/css/main.5af8537d.chunk.css",
-    "main.js": "/Ankit290801.github.io/static/js/main.742ace73.chunk.js",
-    "main.js.map": "/Ankit290801.github.io/static/js/main.742ace73.chunk.js.map",
+    "main.js": "/Ankit290801.github.io/static/js/main.9206011e.chunk.js",
+    "main.js.map": "/Ankit290801.github.io/static/js/main.9206011e.chunk.js.map",
     "runtime-main.js": "/Ankit290801.github.io/static/js/runtime-main.b0caf344.js",
     "runtime-main.js.map": "/Ankit290801.github.io/static/js/runtime-main.b0caf344.js.map",
     "static/css/2.a59e0dcc.chunk.css": "/Ankit290801.github.io/static/css/2.a59e0dcc.chunk.css",
-    "static/js/2.9916b75a.chunk.js": "/Ankit290801.github.io/static/js/2.9916b75a.chunk.js",
-    "static/js/2.9916b75a.chunk.js.map": "/Ankit290801.github.io/static/js/2.9916b75a.chunk.js.map",
+    "static/js/2.b959f9fc.chunk.js": "/Ankit290801.github.io/static/js/2.b959f9fc.chunk.js",
+    "static/js/2.b959f9fc.chunk.js.map": "/Ankit290801.github.io/static/js/2.b959f9fc.chunk.js.map",
     "index.html": "/Ankit290801.github.io/index.html",
     "static/css/2.a59e0dcc.chunk.css.map": "/Ankit290801.github.io/static/css/2.a59e0dcc.chunk.css.map",
     "static/css/main.5af8537d.chunk.css.map": "/Ankit290801.github.io/static/css/main.5af8537d.chunk.css.map",
-    "static/js/2.9916b75a.chunk.js.LICENSE.txt": "/Ankit290801.github.io/static/js/2.9916b75a.chunk.js.LICENSE.txt",
+    "static/js/2.b959f9fc.chunk.js.LICENSE.txt": "/Ankit290801.github.io/static/js/2.b959f9fc.chunk.js.LICENSE.txt",
+    "static/media/calculator.12fc8fcb.png": "/Ankit290801.github.io/static/media/calculator.12fc8fcb.png",
+    "static/media/covid.c05df755.jpg": "/Ankit290801.github.io/static/media/covid.c05df755.jpg",
     "static/media/font-awesome.css": "/Ankit290801.github.io/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/hackathon.bfdb4cc4.png": "/Ankit290801.github.io/static/media/hackathon.bfdb4cc4.png",
     "static/media/App.css": "/Ankit290801.github.io/static/media/ldbg.7bc19cfd.jpg",
     "static/media/profilepic.b3fbb922.jpeg": "/Ankit290801.github.io/static/media/profilepic.b3fbb922.jpeg",
+    "static/media/restaurant.ae1246dc.jpg": "/Ankit290801.github.io/static/media/restaurant.ae1246dc.jpg",
     "static/media/vector.38e12981.png": "/Ankit290801.github.io/static/media/vector.38e12981.png",
     "static/media/vector1.5777bd46.png": "/Ankit290801.github.io/static/media/vector1.5777bd46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b0caf344.js",
     "static/css/2.a59e0dcc.chunk.css",
-    "static/js/2.9916b75a.chunk.js",
+    "static/js/2.b959f9fc.chunk.js",
     "static/css/main.5af8537d.chunk.css",
-    "static/js/main.742ace73.chunk.js"
+    "static/js/main.9206011e.chunk.js"
   ]
 }
