@@ -5,9 +5,9 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
-    NavLink
+    NavItem
   } from 'reactstrap';
+  import {Link} from 'react-router-dom'
 
 class Header extends Component{
 
@@ -28,23 +28,23 @@ class Header extends Component{
         return(
             <>
               <Navbar light expand="md">
-                <div className="container ">
+                <>
                   <NavbarToggler onClick={this.toggleNav} />
-                  <NavbarBrand  href="/">Ankit Banerjee</NavbarBrand>
+                  <NavbarBrand  href="/" className="pl-4 pr-3">Ankit Banerjee</NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>
                     <Nav navbar>
                       <NavItem>
-                        <NavLink href="/">Home</NavLink>
+                        <Link  to="/" className="link">Home</Link>
                       </NavItem>
                       <NavItem>
-                        <NavLink href="/about">About</NavLink>
+                        <Link  to="/about" className="link">About</Link>
                       </NavItem>
                       <NavItem>
-                        <NavLink href="/projects">Projects</NavLink>
+                        <Link  to="/projects" className="link">Projects</Link>
                       </NavItem>
                     </Nav>
                   </Collapse>
-                </div>
+                </>
               </Navbar>
              {/*  </Navbar>
                 <Navbar expand="md" className="navbar-light">
