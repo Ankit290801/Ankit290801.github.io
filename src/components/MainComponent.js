@@ -11,9 +11,9 @@ class Main extends Component{
                 <Header />
                 <Router>
                     <Switch>
-                        <Route path="/home" component={Home} />
-                        <Route path="/about" component={About} />
-                        <Route path="/projects" component={Projects} />
+                        <Route exact path="/" component={Home} />
+                        <Route path="/ankit290801.github.io/about" component={About} />
+                        <Route path="/ankit290801.github.io/projects" component={Projects} />
                     </Switch>
                 </Router>
             </div>
