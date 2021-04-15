@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import Projects from './ProjectsComponent';
@@ -7,21 +7,14 @@ import About from './AboutComponent';
 class Main extends Component{
     render(){
         return(
-            <div>
+            <BrowserRouter>
                 <Header />
-                <Switch>
-                    <HashRouter hashType="slash">
+                    <Switch>
                         <Route exact path="/" component={Home} />
                         <Route path="/about" component={About} />
                         <Route path="/projects" component={Projects} />
-                    </HashRouter>
-                </Switch>
-                {/* <Router>
-                    <Switch>
-                        
                     </Switch>
-                </Router> */}
-            </div>
+            </BrowserRouter>
         )
     }
 }
