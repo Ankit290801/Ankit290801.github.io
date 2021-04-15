@@ -99,3 +99,10 @@
 .link:hover{
   text-decoration: none;
 }
+
+.cv-button{
+  background-color: transparent;
+  color: #6c757d;
+  border-color: #4d4d4d;
+  border-radius: 15px;
+}

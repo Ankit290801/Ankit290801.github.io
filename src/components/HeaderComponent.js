@@ -5,7 +5,8 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem
+    NavItem,
+    Button
   } from 'reactstrap';
   import {Link} from 'react-router-dom'
 
@@ -27,24 +28,25 @@ class Header extends Component{
     render(){
         return(
             <>
-              <Navbar light expand="md">
-                <>
+              <Navbar light expand="md" >
                   <NavbarToggler onClick={this.toggleNav} />
                   <NavbarBrand  href="/" className="pl-4 pr-3">Ankit Banerjee</NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>
-                    <Nav navbar>
-                      <NavItem>
+                    <Nav navbar className="ml-auto ">
+                      <NavItem className="pt-2">
                         <Link  to="/" className="link">Home</Link>
                       </NavItem>
-                      <NavItem>
+                      <NavItem className="pt-2">
                         <Link  to="/about" className="link">About</Link>
                       </NavItem>
-                      <NavItem>
+                      <NavItem className="pt-2">
                         <Link  to="/projects" className="link">Projects</Link>
+                      </NavItem>
+                      <NavItem>
+                        <Button href="https://drive.google.com/file/d/1QX4sutUKBWaSu9ubGw8-D4KCZJCVbnEz/view?usp=sharing" className="cv-button pb-2">Download CV</Button>
                       </NavItem>
                     </Nav>
                   </Collapse>
-                </>
               </Navbar>
              {/*  </Navbar>
                 <Navbar expand="md" className="navbar-light">
