@@ -8,7 +8,6 @@ class About extends Component{
     render(){
         return(
             <>
-                <p className="text-center text-dark" style={{fontSize:"2rem", margin:"10px 0"}}><em>There is no Innovation and Creativity without failure. Period.</em><br/>~Brene Brown</p>
                 <div className="container-fluid text-center bg">
                     <p className="about">Hi, I am Ankit Banerjee</p>
                     <hr />
@@ -37,7 +36,7 @@ class About extends Component{
                         </div>
                     </div>
                 </div>
-                
+                <p className="text-center text-dark" style={{fontSize:"2rem", margin:"20px 0"}}><em>There is no Innovation and Creativity without failure. Period.</em><br/>~Brene Brown</p>
                 <div className=" container-fluid mb-3 text-light skills">
                     <h2 className="text-center pt-3 pb-4">Skills and Endorsements</h2>
                     <div className="row">
@@ -65,6 +64,31 @@ class About extends Component{
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education text-light"
                             contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                            date="April 2021 - Present"
+                            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                        >
+                            <h3 className="vertical-timeline-element-title">Web Development</h3>
+                            <h4 className="vertical-timeline-element-subtitle">BytesPlex</h4>
+                            <p>
+                            Internship | React Developer
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work text-light"
+                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            date="March 2021 - Present"
+                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            
+                        >
+                            <h3 className="vertical-timeline-element-title">Content Writer</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Digistatement</h4>
+                            <p>
+                            Internship | Content Writing
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--education text-light"
+                            contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                             date="2019 - Present"
                             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                             
@@ -78,7 +102,7 @@ class About extends Component{
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work text-light"
                             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            date="September 2020 - Present"
+                            date="September 2020 - January 2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             
                         >
