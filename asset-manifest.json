@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c19d2eb.chunk.css",
-    "main.js": "/static/js/main.f4a7b35c.chunk.js",
-    "main.js.map": "/static/js/main.f4a7b35c.chunk.js.map",
+    "main.css": "/static/css/main.814458bd.chunk.css",
+    "main.js": "/static/js/main.4380aea2.chunk.js",
+    "main.js.map": "/static/js/main.4380aea2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/css/2.ef43ba9c.chunk.css": "/static/css/2.ef43ba9c.chunk.css",
-    "static/js/2.e73dff6e.chunk.js": "/static/js/2.e73dff6e.chunk.js",
-    "static/js/2.e73dff6e.chunk.js.map": "/static/js/2.e73dff6e.chunk.js.map",
+    "static/js/2.3c1f619b.chunk.js": "/static/js/2.3c1f619b.chunk.js",
+    "static/js/2.3c1f619b.chunk.js.map": "/static/js/2.3c1f619b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ef43ba9c.chunk.css.map": "/static/css/2.ef43ba9c.chunk.css.map",
-    "static/css/main.0c19d2eb.chunk.css.map": "/static/css/main.0c19d2eb.chunk.css.map",
-    "static/js/2.e73dff6e.chunk.js.LICENSE.txt": "/static/js/2.e73dff6e.chunk.js.LICENSE.txt",
+    "static/css/main.814458bd.chunk.css.map": "/static/css/main.814458bd.chunk.css.map",
+    "static/js/2.3c1f619b.chunk.js.LICENSE.txt": "/static/js/2.3c1f619b.chunk.js.LICENSE.txt",
     "static/media/calculator.12fc8fcb.png": "/static/media/calculator.12fc8fcb.png",
     "static/media/covid.c05df755.jpg": "/static/media/covid.c05df755.jpg",
     "static/media/font-awesome.css": "/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/hackathon.bfdb4cc4.png": "/static/media/hackathon.bfdb4cc4.png",
-    "static/media/App.css": "/static/media/ldbg.7bc19cfd.jpg",
+    "static/media/Home.css": "/static/media/ldbg.7bc19cfd.jpg",
     "static/media/profilepic.b3fbb922.jpeg": "/static/media/profilepic.b3fbb922.jpeg",
     "static/media/restaurant.ae1246dc.jpg": "/static/media/restaurant.ae1246dc.jpg",
     "static/media/vector.38e12981.png": "/static/media/vector.38e12981.png",
@@ -25,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/css/2.ef43ba9c.chunk.css",
-    "static/js/2.e73dff6e.chunk.js",
-    "static/css/main.0c19d2eb.chunk.css",
-    "static/js/main.f4a7b35c.chunk.js"
+    "static/js/2.3c1f619b.chunk.js",
+    "static/css/main.814458bd.chunk.css",
+    "static/js/main.4380aea2.chunk.js"
   ]
 }
