@@ -28,7 +28,7 @@ class Header extends Component{
     render(){
         return(
             <>
-              <Navbar light expand="md" >
+              <Navbar expand="md" className="home-header" >
                   <NavbarToggler onClick={this.toggleNav} />
                   <NavbarBrand  href="/" className="pl-4 pr-3">Ankit Banerjee</NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>

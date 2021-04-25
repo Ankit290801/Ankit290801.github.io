@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Header from './HeaderComponent';
-import Home from './HomeComponent';
-import Projects from './ProjectsComponent';
-import About from './AboutComponent';
+import Home from './Home/HomeComponent';
+import Projects from './Projects/ProjectsComponent';
+import About from './About/AboutComponent';
 class Main extends Component{
     render(){
         return(

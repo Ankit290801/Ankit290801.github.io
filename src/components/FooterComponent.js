@@ -19,7 +19,7 @@ function Footer(props){
 		              24 Paraganas North,<br />
 		              Naihati, Kolkata<br />
 		              INDIA<br />
-		              <i className="fa fa-phone fa-lg"></i>: (+91) 6290754574<br />
+		              <i className="fa fa-phone fa-lg mr-2"></i>: (+91) 6290754574<br />
                     </address>
                 </div>
                 <div className="col-12 col-md-3 align-self-center">

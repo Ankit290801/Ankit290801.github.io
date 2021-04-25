@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
+import './About.css'
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import vector from '../img/vector.png';
-import vector1 from '../img/vector1.png';
-import Footer from './FooterComponent';
+import vector from '../../img/vector.png';
+import vector1 from '../../img/vector1.png';
+import Footer from '../FooterComponent';
+
 class About extends Component{
     render(){
         return(

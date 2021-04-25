@@ -1,0 +1,21 @@
+.home
+{
+  background-image: url('../../img/ldbg.jpg');
+  position: fixed;
+  background-size: cover;
+  overflow-y: visible;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.profilepic{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.typingeffect{
+  font-size: 30px;
+  color: #f2f2f2;
+}
